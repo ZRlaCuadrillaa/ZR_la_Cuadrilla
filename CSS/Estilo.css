@@ -1,0 +1,231 @@
+body{
+	/* backgorund image es para imagen de fondo*/
+	background-image:url("../imagenes/logo1.jpg");
+	/* font family es para tipografia de letras*/
+	font-family:"Tahoma"," console"," courler new";
+	/* color es para el color de las letras*/
+	color:#fb0022;
+	/* font aize es para el tamaño de las letras indicado en pixeles */
+	font-size:40px;
+	text-align:center;
+}	
+hr{
+	/*border es para las lineas
+	el grosor se indica en pixeles*/
+	border:3px solid white;
+	width:80%;
+	border-radius:5px
+}
+p{
+	text-align:justify;
+	font size:20px;
+	color:D35400;
+	/*letras negritas*/
+	font-weight:bold;
+	line-height:1.5;
+	background-color:#ffc6c6;
+	/*espacio entre letra*/
+	letter-spacing
+}
+table,tr,td{
+	border:1px solid #d36666;
+	border-spacing:0px;
+	background-color:#f3d7cd;
+	font-size:20px;
+	text-align:center;
+	font-weight:bold;
+}
+.pie{
+	text-align:center;
+	font-size:10px;
+	font-weight:bold;
+	color:#eb99fd 
+}
+.encabezado{
+	font-family:"ghost";
+	text-align:center;
+	font-size:35px;
+	font-weight:bold;
+	color:#c81b33;
+}
+/*diva*/
+div#top{
+	width:100%;
+	font-family:"eme";
+	height:75px;
+	background-image:gradient(#f9f3f1,#b1e1df);
+}
+div#guitarras{
+	font-family:"pp";
+	width:100%;
+	height:100px;
+	background-image:gradient(#f9f3f1,#b1e1df);
+}
+/*carrousel de imagenes*/
+.carrousel{
+	width:600px;
+	margin:auto;
+	box-sizing:border-box;
+}
+.contecarrousel{
+	width:100%;
+	height:400px;
+	overflow:hidden;
+	box-sizing:border-box;
+}
+.itemcarrousel{
+	position:relative;
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemcarrouseltarjeta{
+	width:100%;
+	height:100%;
+	box-sizing:border-box;
+}
+.itemcarrouselarrows{
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	height:100%;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:20px;
+	box-sizing:border-box;
+}
+.itemcarrouselarrows > i:hover{
+	cursor:pointer;
+}
+.contecarrouselcontroller{
+	width:100%;
+	display:flex;
+	justify-content:space-evenly;
+}
+.contecarrouselcontroller > a{
+	text-decoration:none;
+	font-size:32px;
+	color:grey;
+}
+.itemcarrouselarrows > a > i {
+	color:white;
+}
+.caja{
+	height:350px;
+	width:200px;
+	background:#b4b8f6;
+	border:1px solid #eee;
+	margin:5px;
+	color:black;
+	text-align:center;
+	display:inline-block;
+}
+.caja:hover{
+	box-shadow:0 0 10px #0909f1  ;
+	transform:scale(1.3 );
+}
+.caja-texto{
+	padding-top:5px;
+	padding-bottom:5px;
+	font-size:20px;
+	color:#0e4ae9 ;
+	font-weight:bold;
+}
+.texto-adicional{
+	padding-top:5px;
+	font-size:10px;
+}
+div#texto1{
+	text-align:center;
+	padding-top:5px;
+	font-size:20px;
+	font-family:"tahoma";
+	color:black;
+	height:150px;
+	width:450px;
+	background-color:#3890f3;
+	border:1px solid #d36666;
+}
+.navegacion{
+	display:flex;
+	height:100px;
+}
+.navegacion-item{
+	flex:1;
+	color:#C368B9;
+	font-weight:bold;
+	font-size:18px;
+	display:flex;
+	transition: flex-grow 0.2s;
+	justify-content:center;
+	align-items:center;
+}
+.navegacion-titulo{
+	margin:0;
+	font-family:Coolvetica Rg Cond;
+	transform:rotate(-90deg);
+	transition:transform 0.2s 0.2s;
+}
+.navegacion-item:hover{
+	flex-grow:10;
+}
+.navegacion-item:hover .navegacion-titulo{
+	transform:rotate(0);
+}
+.navegacion-item:nth-child(1){
+	background:#ee4b1b;
+}
+.navegacion-item:nth-child(2){
+	background:#6b7edc;
+}
+.navegacion-item:nth-child(3){
+	background:#ee7e1b;
+}
+.navegacion-item:nth-child(4){
+	background:#75ab68;
+}
+.cuadro{
+	text-align:center;
+	display:flex;
+	border:5px solid #A2D9CE;
+	padding:50px;
+	max-width:700px;
+	background-color:#D0ECE7
+}
+.imagen{
+	width:250px;
+	height:180px;
+	background-image:url(../imagenes/cuadrilla.jpeg);
+	background-size:cover;
+	background-position:center;
+	margin-right:20px;
+}
+.texto{
+	font-size:25px;
+}
+.navegacion-item{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+@font-face{
+	font-family:"eme";
+	src: url(../fuentes/eme.ttf);
+}
+@font-face{
+	font-family:"pp";
+	src: url(../fuentes/pp.ttf);
+}
+@font-face{
+	font-family:"ghost";
+	src: url(../fuentes/ghost.ttf);
+}
+
+
+
+
+
